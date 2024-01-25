@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Public+Sans:wght@200&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0
+}
+
+#header {
+    background: rgba(255, 255, 255, 0.965);
+    display: flex;
+    box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+    cursor: default;
+    height: 7em;
+    left: 0;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#logo {
+    font-size: 1em;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10em;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+#logo a {
+    color: rgb(154, 132, 76);
+    text-decoration: none;
+}
+
+#nav {
+    display: flex;
+    font-size: 1em;
+    position: absolute;
+    right: 3em;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+#nav ul li #home {
+    color: rgb(119, 101, 58);
+}
+
+#header nav ul li {
+    margin-left: 3em;
+}
+
+#banner {
+    background-image: url('./images/image3.png');
+    background-size: cover;
+    height: 67em;
+}
+
+.imgbg {
+    overflow: hidden;
+    /* 背景图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景图片位置：居中 */
+    background-position: center;
+    /* 背景图片固定 */
+    background-attachment: fixed;
+    background-size: cover;
+    /* 禁止用户误选中 */
+    user-select: none;
+
+}
+
+.text-box {
+    color: white;
+    width: 100%;
+    height: 25%;
+
+    position: absolute;
+    bottom: 45%;
+
+    text-align: center;
+    letter-spacing: 0.3em;
+
+    line-height: 1.5em;
+    font-size: 3.5em;
+    font-family: 'EB Garamond', serif;
+    font-weight: lighter;
+
+}
+
+#footer {
+    /* display: flex; */
+    cursor: default;
+    /* justify-content: space-between;
+
+    cursor: default;
+    height: 7em;
+    left: 0;
+    align-items: center;
+    /* position: fixed;
+    bottom: 2em; */
+
+}
+
+
+#footbox {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    /* width: 100%; */
+    height: 15em;
+    /* 设置框的高度 */
+    margin: 3em;
+    /* 设置外边距为留白大小 */
+    background-color: rgb(154, 132, 76);
+    /* 设置框的背景色 */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* 文本靠左对齐 */
+    box-sizing: border-box;
+    /* 盒模型包括 padding 和 border 在内 */
+    padding-left: 4em;
+
+    /* 设置左边内边距，即文本和框的留白 */
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button {
+    /* display: inline-block; */
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    /* 设置边框颜色为白色 */
+    color: white;
+    background-color: rgb(154, 132, 76);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+
+    margin-right: 11em;
+    font-family: 'Roboto', sans-serif;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1em;
+
+
+
+}
+
+#contentlast {
+    display: flex;
+    text-decoration: none;
+    margin-left: 0;
+    line-height: 1.5em;
+
+
+
+}
+
+#contentlast div:not(:last-child) {
+    border-right: 1.5px solid white;
+    /* 添加分割线 */
+
+    padding-right: 1.5em;
+    /* 添加一些右侧内边距 */
+
+
+
+}
+
+#one {
+    width: 100%;
+    height: 50%;
+    /* 绝对定位 */
+    /* position: absolute; */
+    bottom: 25%;
+    /* 文字居中 */
+    text-align: center;
+    background-color: white;
+
+
+}
+
+#serviceImg {
+    position: relative;
+    display: inline-block;
+    width: 47em;
+    background-image: url('images/flower.png');
+
+    background-repeat: no-repeat;
+
+    margin: 4em 2em 0em 4em;
+}
+
+#imgText {
+
+    color: white;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+
+
+}
+
+#textBgButton {
+    display: flex;
+    height: 50em;
+
+}
+
+#party {
+    width: 80em;
+    height: auto;
+    background-image: url('images/image1.png');
+
+    background-repeat: no-repeat;
+    margin: 4em 4em 0em 2em;
+}
+
+#service {
+    margin-top: 6em;
+    letter-spacing: 0.5em;
+    font-size: 1.3em;
+}
+
+#turn {
+    margin-top: 6em;
+    font-size: 1.3em;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+
+}
+
+#buttonDiscover {
+    color: white;
+    background-color: rgb(154, 132, 76);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 3em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+#about {
+    text-align: center;
+}
+
+.quotes {
+    font-size: 6em;
+    /* Adjust size as needed */
+    color: black;
+    /* Adjust color as needed */
+    /* position: absolute; */
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
+
+#quotecontent {
+    font-size: 2.5em;
+    font-family: 'EB Garamond', serif;
+
+    line-height: 1.7em;
+    /* letter-spacing: 0.1em; */
+
+
+
+}
+
+#quotename {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    /* font-weight: bold; */
+    color: rgb(154, 132, 76);
+    padding-bottom: 3em;
+    font-weight: bold;
+    margin-top: 2.5em;
+
+}
+
+
+#two {
+    /* background-image: url('images/image2.png'); */
+    background-size: cover;
+    height: 55em;
+    /* background-image: url('images/image2.png') */
+}
+
+.imgbg2 {
+    overflow: hidden;
+    /* 背景图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景图片位置：居中 */
+    background-position: top;
+    /* 背景图片固定 */
+    background-attachment: fixed;
+    background-size: cover;
+    /* 禁止用户误选中 */
+    user-select: none;
+
+}
+
+.paddingbox {
+    background-clip: padding-box;
+
+}
+
+#border1 {
+    box-sizing: border-box;
+    border: 3.3em white solid;
+    height: 67em;
+
+    margin: 0;
+}
+
+.section {
+    margin: 0;
+    padding: 0;
+}
+
+#Gallery {
+    background-image: url('images/image2.png');
+    height: 46em;
+}
+
+#galleryblock {
+    position: relative;
+    display: inline-block;
+    width: 26em;
+    background-image: url('images/flower.png');
+    background-repeat: no-repeat;
+    margin: 4em 2em 0em 41em;
+    height: 40em;
+    color: white;
+    text-align: center;
+
+}
+
+#gallerytext1 {
+    margin-top: 4em;
+    font-size: 2em;
+    font-family: 'Public Sans', sans-serif;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+
+}
+
+#gallerytext2 {
+    margin-top: 4.5em;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    font-family: 'EB Garamond', sans-serif;
+    letter-spacing: 0.3em;
+}
+
+#gallerybutton {
+    color: white;
+    background-color: rgb(154, 132, 76);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.1em;
+}
