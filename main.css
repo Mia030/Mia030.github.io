@@ -78,14 +78,11 @@ body {
 
 .imgbg {
     overflow: hidden;
-    /* 背景图片不重复 */
+
     background-repeat: no-repeat;
-    /* 背景图片位置：居中 */
-    /* background-position: center; */
-    /* 背景图片固定 */
+
     background-attachment: fixed;
-    /* background-size: cover; */
-    /* 禁止用户误选中 */
+
     user-select: none;
 
 }
@@ -93,14 +90,11 @@ body {
 .text-box {
     color: white;
     width: 1239px;
-    /* height: 25%;
 
-    position: absolute;
-    bottom: 45%; */
 
     text-align: center;
     margin-top: 300px;
-    /* margin-left: 300px; */
+
     letter-spacing: 4.8px;
 
     line-height: 80px;
@@ -111,16 +105,9 @@ body {
 }
 
 #footer {
-    /* display: flex; */
-    cursor: default;
-    /* justify-content: space-between;
 
     cursor: default;
-    height: 7em;
-    left: 0;
-    align-items: center;
-    /* position: fixed;
-    bottom: 2em; */
+
     width: 1239px;
 
 }
@@ -130,22 +117,21 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
-    /* width: 1239px; */
+
     height: 240px;
-    /* 设置框的高度 */
+
     margin: 48px;
-    /* 设置外边距为留白大小 */
+
     background-color: rgb(154, 132, 76);
-    /* 设置框的背景色 */
+
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    /* 文本靠左对齐 */
+
     box-sizing: border-box;
-    /* 盒模型包括 padding 和 border 在内 */
+
     padding-left: 54px;
 
-    /* 设置左边内边距，即文本和框的留白 */
+
     font-family: 'Roboto', sans-serif;
 
 }
@@ -193,23 +179,17 @@ body {
 }
 
 #contentlast div:not(:last-child) {
-    /* border-right: 1.5px solid white; */
-    /* 添加分割线 */
 
     padding-right: 24px;
-    /* 添加一些右侧内边距 */
-
-
 
 }
 
 #one {
     width: 1239px;
     height: 50%;
-    /* 绝对定位 */
-    /* position: absolute; */
+
     bottom: 25%;
-    /* 文字居中 */
+
     text-align: center;
     background-color: white;
 
@@ -287,10 +267,9 @@ body {
 
 .quotes {
     font-size: 96px;
-    /* Adjust size as needed */
+
     color: black;
-    /* Adjust color as needed */
-    /* position: absolute; */
+
     font-family: 'EB Garamond', serif;
     font-weight: bold;
 }
@@ -300,7 +279,7 @@ body {
     font-family: 'EB Garamond', serif;
 
     line-height: 60px;
-    /* letter-spacing: 0.1em; */
+
 
 
 
@@ -319,20 +298,20 @@ body {
 
 
 #two {
-    /* background-image: url('images/image2.png'); */
+
     background-size: 1239px;
     height: 880px;
-    /* background-image: url('images/image2.png') */
+
 }
 
 .imgbg2 {
     overflow: hidden;
-    /* 背景图片不重复 */
+
     background-repeat: no-repeat;
 
     background-attachment: fixed;
     background-size: 1239px 1330px;
-    /* 禁止用户误选中 */
+
     user-select: none;
 
 }
